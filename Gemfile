@@ -11,6 +11,7 @@ end
 
 # Use sqlite3 as the database for Active Record
 group :development do
+  gem 'pry-rails'
   gem 'sqlite3'
 end
 
